@@ -1,0 +1,159 @@
+@media only screen and (max-width: 480px) {
+
+    html{
+        overflow:scroll;
+        overflow-x: hidden;
+    } 
+    .header{
+        text-align: center;
+        height: 200px !important;
+    }
+    .header_logo img{           
+            height: 80px;
+            width: 200px;  
+            margin-bottom: 20px;
+    }
+    .header_content{
+        margin-right: 100px !important;
+        font-size: 20px !important;
+        position: absolute;
+        right: -40px !important;
+    }  
+    .info_content ul li{
+        font-size: 15px !important;
+        
+    }
+    .information{
+        margin-left: -25px;
+    }
+    .info_heading{
+        padding-top: -50px !important;
+    }
+    .info_image img{
+        height: 300px!important;
+        width: 98%;
+    }
+    .info_heading h1{
+        font-size: 37px !important;
+    }
+    .info_image img{
+        height: 300px !important;
+       
+    }
+    .wh_btn{
+        margin-right: 90px !important;
+
+    }
+    .wh_btn button{       
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    
+    .tools_image{
+        row-gap: 30px !important;
+        text-align: center;
+
+    }
+    
+
+
+}
+
+               /* ----------------------CSS------------------------------------*/
+html{
+    overflow:scroll;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    padding-top: 15px;
+    padding-bottom: 1.5px;
+    
+    background-color:white;
+    height: 100px;
+   
+}
+.header_content{
+    font-size: 18px;
+    margin-top: 12px;    
+    padding:9px;
+    border-radius: 5px;
+    background-color: rgb(241, 232, 232);
+}
+.header_content i{
+    margin-top: 7px;
+}
+
+.information{
+    width: 100%;
+    margin-top: -1  9px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info_heading{
+    margin-left:20px;
+}
+.info_heading h3{
+    color: gray;
+    font-size: 30px;
+    
+    
+}
+.info_heading h1{
+    color: black;
+    font-size: 50px;
+    margin-top:5px;
+    margin-bottom: -10px;
+    
+   
+    
+}
+.info_heading h5{
+    color: darkgrey;
+    
+    
+}
+.info_image img{
+    height: 600px;
+    width: 108%;
+    
+}
+.wh_btn button{
+    height: 50px;
+    width: 100%;
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.wh_btn button:hover{
+    background-color: green;
+    color: white;
+}
+.tool_section{
+    
+    padding: 5px;
+    width: 50%;
+   
+}
+.tool_title h3{
+    font-weight: bold;
+    color: #212529;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: -30px;
+
+}
+.tools_image img{
+    background-color: white;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 11%);
+    padding: 10px 20px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+
+
